@@ -11,7 +11,7 @@ variable "subnets_cidr" {
 
 variable "azs" {
   type = list
-  default = ["us-west-2a", "us-west-2b"]
+  default = ["us-west-1a", "us-west-1b"]
 }
 
 variable "aws_instance_ami" {}
